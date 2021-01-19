@@ -1,8 +1,8 @@
 .header {
     position: relative;
-    height: 35vh;
+    height: 50vh;
     background: linear-gradient(rgba(30, 115, 172, 0.7), rgba(142, 57, 153, 0.6)), url("https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif");
-
+    clip-path: polygon(0 0, 100% 0, 100% 40vh, 0 100%);
     margin: 20px;
 }
 
@@ -39,4 +39,7 @@
     border-radius: 10rem !important;
     transition: all .2s !important;
     font-size: 1.6rem !important;
+    margin : 20px !important;
+    color: #c0c0c0 !important;
+    font-weight: bold !important;
 }
