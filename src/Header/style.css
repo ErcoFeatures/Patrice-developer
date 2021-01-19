@@ -1,0 +1,42 @@
+.header {
+    position: relative;
+    height: 35vh;
+    background: linear-gradient(rgba(30, 115, 172, 0.7), rgba(142, 57, 153, 0.6)), url("https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif");
+
+    margin: 20px;
+}
+
+.header__logo{
+    position: absolute;
+    top:0;
+    left:0;
+    margin: 10px;
+}
+.header__text{
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer ;
+    color: white;
+}
+
+.header__text_name{
+    font-size: 4.5rem;
+    font-weight: 400;
+    letter-spacing: 0.6rem;
+}
+.header__text_title{
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+}
+
+.header__button{
+    position: absolute;
+    top: 75%;
+    background-color: white !important;
+    border-radius: 10rem !important;
+    transition: all .2s !important;
+    font-size: 1.6rem !important;
+}
