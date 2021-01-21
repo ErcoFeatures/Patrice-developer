@@ -9,44 +9,49 @@ const projects = [
         description: "e-commerce",
         headerImage:"https://media.giphy.com/media/1wmdIGcw9g09BqHmmX/giphy.gif",
         bgColor:"black",
+        gotoLink:'',
         skills: [
-            "AWS",
-            "Docker",
-            "NodeJS",
-            "CSS"
+            { name: "AWS",rate:3},
+            { name: "Docker",rate:3},
+            { name: "NodeJS",rate:3},
+            { name: "CSS",rate:3},
         ]
     },
     {
         title: "snapchat",
         description: "chat",
         headerImage:"",
+        gotoLink:'',
         skills: [
-            "AWS",
-            "Docker",
-            "NodeJS",
-            "CSS"
+            { name: "AWS",rate:3},
+            { name: "Docker",rate:3},
+            { name: "NodeJS",rate:3},
+            { name: "CSS",rate:3},
         ]
     },
     {
         title: "shopify",
         description: "e-commerce",
         headerImage:"",
+        gotoLink:'',
         skills: [
-            "AWS",
-            "Docker",
-            "NodeJS",
-            "CSS"
+            { name: "AWS",rate:3},
+            { name: "Docker",rate:3},
+            { name: "NodeJS",rate:3},
+            { name: "CSS",rate:3},
         ]
     },
     {
         title: "shopify",
         description: "e-commerce",
         headerImage:"",
+        gotoLink:'',
+        rate:3,
         skills: [
-            "AWS",
-            "Docker",
-            "NodeJS",
-            "CSS"
+            { name: "AWS",rate:3},
+            { name: "Docker",rate:3},
+            { name: "NodeJS",rate:3},
+            { name: "CSS",rate:3},
         ]
     }
 ]

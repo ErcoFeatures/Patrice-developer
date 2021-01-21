@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import ReactCardFlip from 'react-card-flip';
 import './style.css'
 import Grid from "@material-ui/core/Grid";
-
+import Rating  from 'material-ui-rating';
 const Project = (props) => {
 
     const [isFlipped, setIsFlipped] = useState(false);
@@ -19,11 +19,16 @@ const Project = (props) => {
                         <div className='project__header' style={{backgroundColor:props.bgColor}}>
                            <img width="60" height="100" src={props.headerImage} alt='' />
                         </div>
-                        <div className='project__skills'></div>
+                        <div className='project__skills'>
+                            {
+                                props.skills.map(el => <div className="skill">{el.name} </div>)
+
+                            }
+                        </div>
                     </div>
                     <div className="project__card">
                         <div className='project__header'>
-                            BACK
+                            <img width="60" height="100" src={props.headerImage} alt='' />
                         </div>
                         <div className='project__skills'></div>
                     </div>
