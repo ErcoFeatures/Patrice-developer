@@ -2,6 +2,7 @@
     position: relative;
     padding: 0 10px;
     width: 220px;
+    height: 220px;
     margin: 5px;
 
 }
@@ -9,8 +10,14 @@
 .project__card{
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-    padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
     width: 100%;
+}
+
+.project__header{
+    height: 15vh;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 12vh, 0 100%);
+
 }

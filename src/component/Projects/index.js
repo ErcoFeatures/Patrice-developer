@@ -7,6 +7,8 @@ const projects = [
     {
         title: "vue",
         description: "e-commerce",
+        headerImage:"https://media.giphy.com/media/1wmdIGcw9g09BqHmmX/giphy.gif",
+        bgColor:"black",
         skills: [
             "AWS",
             "Docker",
@@ -17,6 +19,7 @@ const projects = [
     {
         title: "snapchat",
         description: "chat",
+        headerImage:"",
         skills: [
             "AWS",
             "Docker",
@@ -27,6 +30,7 @@ const projects = [
     {
         title: "shopify",
         description: "e-commerce",
+        headerImage:"",
         skills: [
             "AWS",
             "Docker",
@@ -37,6 +41,7 @@ const projects = [
     {
         title: "shopify",
         description: "e-commerce",
+        headerImage:"",
         skills: [
             "AWS",
             "Docker",
@@ -50,7 +55,7 @@ const Projects = () => {
     return (
         <div className='projects'>
             <div className='projects__title'>
-                PROJECT PORTFOLIO
+                PORTFOLIO
             </div>
             <div className="projects__cards">
                 <Grid container spacing={24}>
