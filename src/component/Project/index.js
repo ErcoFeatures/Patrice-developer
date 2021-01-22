@@ -2,22 +2,23 @@ import React, {useState} from 'react';
 import ReactCardFlip from 'react-card-flip';
 import './style.css'
 import Grid from "@material-ui/core/Grid";
-import Rating  from 'material-ui-rating';
+
 const Project = (props) => {
 
     const [isFlipped, setIsFlipped] = useState(false);
 
-    const doFlip = () =>{
-        setIsFlipped(!isFlipped);
+    const doFlip = () => {
+        setIsFlipped(true);
     };
-    debugger;
+    const doFlap = () => {
+        setIsFlipped(false);
+    };
     return (
-        <Grid item md={3}>
-            <div className='project' onMouseOver={doFlip}>
+            <Grid item md={3} onMouseEnter={doFlip} onMouseLeave={doFlap} className="project">
                 <ReactCardFlip isFlipped={isFlipped}>
                     <div className="project__card">
-                        <div className='project__header' style={{backgroundColor:props.bgColor}}>
-                           <img width="60" height="100" src={props.headerImage} alt='' />
+                        <div className='project__header' style={{backgroundColor: props.bgColor}}>
+                            <img width="60" height="100" src={props.headerImage} alt=''/>
                         </div>
                         <div className='project__skills'>
                             {
@@ -28,13 +29,12 @@ const Project = (props) => {
                     </div>
                     <div className="project__card">
                         <div className='project__header'>
-                            <img width="60" height="100" src={props.headerImage} alt='' />
+                            <img width="60" height="100" src={props.headerImage} alt=''/>
                         </div>
                         <div className='project__skills'></div>
                     </div>
                 </ReactCardFlip>
-            </div>
-        </Grid>
+            </Grid>
 
     );
 };

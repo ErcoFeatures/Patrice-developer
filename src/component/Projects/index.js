@@ -58,16 +58,16 @@ const projects = [
 
 const Projects = () => {
     return (
-        <div className='projects'>
-            <div className='projects__title'>
-                PORTFOLIO
-            </div>
-            <div className="projects__cards">
-                <Grid container spacing={24}>
-                    {projects.map(el => <Project {...el}/>)}
-                </Grid>
+        <div className='projects' id='projectList'>
+            <div className="projects__content">
+                <div className='projects__title'>
+                    PORTFOLIO
+                </div>
+                    <Grid container spacing={24} className="project__cards">
+                        {projects.map(el => <Project {...el}/>)}
+                    </Grid>
+                </div>
 
-            </div>
 
 
         </div>

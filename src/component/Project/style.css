@@ -2,8 +2,7 @@
     position: relative;
     padding: 0 10px;
     width: 245px;
-    height: 220px;
-    margin: 5px;
+    margin: 5px !important;
 
 }
 

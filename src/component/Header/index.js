@@ -4,7 +4,8 @@ import {Button} from '@material-ui/core'
 
 
 const ScrollTo = () => {
-
+    let element = document.getElementById("projectList");
+    element.scrollIntoView({behavior:"smooth"});
 }
 const Header = () => {
     return (

@@ -5,8 +5,9 @@ import {
     Route,
 } from "react-router-dom";
 import './App.css';
-import Home from "./pages/Home";
 import Contact from "./pages/Contact";
+import Header from "./component/Header";
+import Projects from "./component/Projects";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
                         <Contact />
                     </Route>
                     <Route  exact path="/">
-                        <Home />
+                        <Header/>
+                        <Projects/>
                     </Route>
                 </Switch>
             </div>
