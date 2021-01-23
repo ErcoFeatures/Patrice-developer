@@ -1,9 +1,9 @@
 .header {
     position: relative;
-    height: 80vh;
+    height: 420px;
     background: linear-gradient(to right bottom, rgba(30, 115, 172, 0.7), rgba(142, 57, 153, 0.6)),
         url("https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif");
-    clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 340px, 0 100%);
 }
 
 .header__logo{
@@ -36,11 +36,16 @@
     position: absolute !important;
     left:50%;
     transform: translate(-50%, -50%);
+    bottom: 0;
 }
-.projects__button{
+.row__buttons .button{
+    margin: 0 5px;
+}
 
+.header__content{
+    display: flex;
+    vertical-align: center;
+    flex-direction: column;
 }
-.services__button{
 
-}
 

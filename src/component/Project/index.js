@@ -18,7 +18,7 @@ const Project = (props) => {
         window.open(link, '_blank')
     }
     return (
-            <Grid item md={3} onMouseEnter={doFlip} onMouseLeave={doFlap} className="project">
+            <Grid item xs={12} md={3} onMouseEnter={doFlip} onMouseLeave={doFlap} className="project">
                 <ReactCardFlip isFlipped={isFlipped}>
                     <div className="project__card">
                         <div className='project__header front_side' style={{backgroundColor: props.bgColor}}>

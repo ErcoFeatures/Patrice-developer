@@ -44,7 +44,8 @@ const projects = [
         backColor: "linear-gradient(to right bottom, #1E2D7D, #2752D1)",
         skills: [
             { name: "Shopify shop optimisation ",rate:3},
-            { name: "Facebook Ads | Retargeting",rate:3},
+            { name: "Facebook Ads"},
+            { name: "Retargeting ",rate:3},
             { name: "Testing products",rate:3},
             { name: "Influencer marcketing",rate:3},
         ]
@@ -58,7 +59,7 @@ const Projects = () => {
                 <div className='projects__title'>
                     PORTFOLIO
                 </div>
-                    <Grid container  justify="center" spacing={5} className="project__cards">
+                    <Grid container  justify="center" spacing={0} className="project__cards">
                         {projects.map((el, index) => <Project key={index}  {...el}/>)}
                     </Grid>
                 </div>

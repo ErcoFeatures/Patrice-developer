@@ -13,9 +13,11 @@ const Header = () => {
             <div className="header__logo">
                 LOGO
             </div>
-            <div className="header__text">
-                <div className="header__text_name">PATRICE DIOUF</div>
-                <div className="header__text_title">FRONT-END ENGINEER</div>
+            <div className="header__content">
+                <div className="header__text">
+                    <div className="header__text_name">PATRICE DIOUF</div>
+                    <div className="header__text_title">FRONT-END ENGINEER</div>
+                </div>
                 <div className="row__buttons">
                     <Button variant="outlined"  className="header__button projects__button button" onClick={ () =>ScrollTo ("projectList")}>
                         PROJECTS
@@ -25,6 +27,7 @@ const Header = () => {
                     </Button>
                 </div>
             </div>
+
 
         </div>
     );
