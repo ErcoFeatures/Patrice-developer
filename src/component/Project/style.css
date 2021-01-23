@@ -16,9 +16,10 @@
 }
 
 .project__header{
-    height: 15vh;
+    padding: 10px 0;
+    height: 80px;
     background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 12vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 78px, 0 100%);
 }
 
 .project__skills {
@@ -35,4 +36,14 @@
     cursor: pointer;
     font-size: 20px !important;
     border-bottom: 1px solid #eee;
+}
+.back_side{
+    color:white;
+}
+.row__button .button{
+    bottom: 0;
+    font-size: 14px !important;
+    position: absolute !important;
+    left:50%;
+    transform: translate(-50%, -50%);
 }

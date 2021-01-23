@@ -1,9 +1,9 @@
 .header {
     position: relative;
-    height: 70vh;
+    height: 80vh;
     background: linear-gradient(to right bottom, rgba(30, 115, 172, 0.7), rgba(142, 57, 153, 0.6)),
         url("https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif");
-    clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
 }
 
 .header__logo{
@@ -32,16 +32,15 @@
     letter-spacing: 0.6rem;
     text-align: center;
 }
-
-.header__button{
+.row__buttons{
     position: absolute !important;
     left:50%;
     transform: translate(-50%, -50%);
-    background-color: white !important;
-    border-radius: 10rem !important;
-    transition: all .2s !important;
-    font-size: 1.6rem !important;
-    margin-top : 40px !important;
-    color: #c0c0c0 !important;
-    font-weight: bold !important;
 }
+.projects__button{
+
+}
+.services__button{
+
+}
+

@@ -3,8 +3,8 @@ import './style.css'
 import {Button} from '@material-ui/core'
 
 
-const ScrollTo = () => {
-    let element = document.getElementById("projectList");
+const ScrollTo = (id) => {
+    let element = document.getElementById(id);
     element.scrollIntoView({behavior:"smooth"});
 }
 const Header = () => {
@@ -16,9 +16,14 @@ const Header = () => {
             <div className="header__text">
                 <div className="header__text_name">PATRICE DIOUF</div>
                 <div className="header__text_title">FRONT-END ENGINEER</div>
-                <Button variant="outlined"  className="header__button" onClick={ScrollTo}>
-                    PROJECTS
-                </Button>
+                <div className="row__buttons">
+                    <Button variant="outlined"  className="header__button projects__button button" onClick={ () =>ScrollTo ("projectList")}>
+                        PROJECTS
+                    </Button>
+                    <Button variant="outlined"  className="header__button services__button button" onClick={() => ScrollTo("service__plan")}>
+                        SERVICES
+                    </Button>
+                </div>
             </div>
 
         </div>

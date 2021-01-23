@@ -1,0 +1,73 @@
+.section__plan{
+    padding: 20rem 0;
+    background-image: linear-gradient(to right bottom, rgba(142, 57, 153, 0.75), rgba(30, 115, 172, 0.75)), url("https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif");
+    background-size: cover;
+    transform: skewY(
+            -5deg
+    );
+}
+.plan__cards__container{
+    display: flex;
+    margin: 0 auto;
+}
+.plan__card__container{
+    border: 1px solid rgba(108,85,213,.2);
+    background-color: #fff;
+    color: #494563;
+    margin: 25px 0;
+    padding: 15px;
+    width: 100%;
+}
+.plan__card__title{
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 38px;
+    margin: -15px -15px 0;
+    padding: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.plan__card__upgrade{
+    text-align: center;
+}
+.plan__card__upgrade__plan{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 12px;
+    color: #494563;
+}
+.plan__card__feature .MuiSvgIcon-root{
+    font-size: 20px !important;
+    color: green;
+    margin: 0 5px;
+}
+.plan__card__feature {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 20px 0;
+    color: #494563;
+}
+.plan__card__container.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 12px 1px rgb(0 0 0 / 20%);
+    border: 0;
+    transition: all .5s !important;
+}
+
+.section__plan > *{
+
+    transform: skewY(
+            5deg
+    );
+}

@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import Header from "./component/Header";
 import Projects from "./component/Projects";
 import OpenSourceLibs from "./component/OpenSouceLibs";
+import Plans from "./component/Plans";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
                     <Route  exact path="/">
                         <Header/>
                         <OpenSourceLibs/>
+                        <Plans/>
                         <Projects/>
                     </Route>
                 </Switch>
