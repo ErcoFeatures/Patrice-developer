@@ -40,19 +40,6 @@ const projects = [
             { name: "NodeJS",rate:3},
             { name: "CSS",rate:3},
         ]
-    },
-    {
-        title: "shopify",
-        description: "e-commerce",
-        headerImage:"",
-        gotoLink:'',
-        rate:3,
-        skills: [
-            { name: "AWS",rate:3},
-            { name: "Docker",rate:3},
-            { name: "NodeJS",rate:3},
-            { name: "CSS",rate:3},
-        ]
     }
 ]
 

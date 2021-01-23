@@ -14,7 +14,7 @@ const Project = (props) => {
         setIsFlipped(false);
     };
     return (
-            <Grid item md={4} onMouseEnter={doFlip} onMouseLeave={doFlap} className="project">
+            <Grid item md={3} onMouseEnter={doFlip} onMouseLeave={doFlap} className="project">
                 <ReactCardFlip isFlipped={isFlipped}>
                     <div className="project__card">
                         <div className='project__header' style={{backgroundColor: props.bgColor}}>
