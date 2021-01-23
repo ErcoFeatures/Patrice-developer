@@ -10,3 +10,17 @@
   margin: 20px;
   background-color: #F7F7F7;
 }
+
+.row{
+  max-width: 95rem;
+  margin: 0 auto;
+}
+
+.main__content{
+  width: 80%;
+  max-width: 1430px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -59,12 +59,12 @@ const projects = [
 const Projects = () => {
     return (
         <div className='projects' id='projectList'>
-            <div className="projects__content">
+            <div className="projects__content main__content">
                 <div className='projects__title'>
                     PORTFOLIO
                 </div>
-                    <Grid container spacing={24} className="project__cards">
-                        {projects.map(el => <Project {...el}/>)}
+                    <Grid container  justify="center" spacing={5} className="project__cards">
+                        {projects.map((el, index) => <Project key={index}  {...el}/>)}
                     </Grid>
                 </div>
 

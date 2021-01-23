@@ -14,7 +14,7 @@ const Project = (props) => {
         setIsFlipped(false);
     };
     return (
-            <Grid item md={3} onMouseEnter={doFlip} onMouseLeave={doFlap} className="project">
+            <Grid item md={4} onMouseEnter={doFlip} onMouseLeave={doFlap} className="project">
                 <ReactCardFlip isFlipped={isFlipped}>
                     <div className="project__card">
                         <div className='project__header' style={{backgroundColor: props.bgColor}}>
@@ -22,7 +22,7 @@ const Project = (props) => {
                         </div>
                         <div className='project__skills'>
                             {
-                                props.skills.map(el => <div className="skill">{el.name} </div>)
+                                props.skills.map((el,index) => <div  key={index} className="skill">{el.name} </div>)
 
                             }
                         </div>
