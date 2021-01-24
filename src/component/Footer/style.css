@@ -36,14 +36,12 @@
 }
 .footer__navigation {
     border-top: 1px solid #f1f1f1;
-    padding-top: 1rem;
     display: inline-block;
 }
 .footer__links{
     position: absolute;
     bottom: 0;
     left: 0;
-    margin:10px;
     width: 40%;
     color: white;
 }
@@ -51,16 +49,16 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    margin:10px;
+    margin: 18px;
     border-top: 1px solid #f1f1f1;
-    padding-top: 1rem;
+    padding-top: 11px;
     display: inline-block;
     text-align: right;
     color: green;
     font-weight: bold;
     font-size: 15px;
 }
-.footer__copyright .footer__link{
+.footer__link{
     text-transform: uppercase;
     text-decoration: none;
     color: white;
