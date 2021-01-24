@@ -1,9 +1,9 @@
 .header {
     position: relative;
-    height: 420px;
+    height: 380px;
     background: linear-gradient(to right bottom, rgba(30, 115, 172, 0.7), rgba(142, 57, 153, 0.6)),
         url("https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif");
-    clip-path: polygon(0 0, 100% 0, 100% 340px, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 328px, 0 100%);
 }
 
 .header__logo{

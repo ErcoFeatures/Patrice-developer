@@ -10,6 +10,7 @@ import Header from "./component/Header";
 import Projects from "./component/Projects";
 import OpenSourceLibs from "./component/OpenSouceLibs";
 import Plans from "./component/Plans";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
                         <OpenSourceLibs/>
                         <Plans/>
                         <Projects/>
+
+                        <Footer/>
                     </Route>
                 </Switch>
             </div>

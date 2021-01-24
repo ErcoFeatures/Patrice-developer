@@ -21,18 +21,18 @@ const projects = [
         ]
     },
     {
-        title: "snapchat",
-        description: "chat",
+        title: "Nawde  BDStory",
+        description: "It's your birthday? create a private or public story room, so your friend can make your day unique with insane videos :)",
         headerImage:"",
-        gotoLink:'',
+        gotoLink:'https://nawde-c26fa.web.app/',
         codeLink:'',
         bgColor:"#396b2a",
         backColor:"linear-gradient(to right bottom, #396b2a, #1b2e21)",
         skills: [
-            { name: "AWS",rate:3},
-            { name: "Docker",rate:3},
-            { name: "NodeJS",rate:3},
-            { name: "CSS",rate:3},
+            { name: "React",rate:3},
+            { name: "Redux",rate:3},
+            { name: "NodeJs",rate:3},
+            { name: "Firebase",rate:3},
         ]
     },
     {

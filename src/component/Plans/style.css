@@ -1,9 +1,9 @@
 .section__plan{
     padding: 5rem 0;
-    background-image: linear-gradient(to right bottom, rgba(142, 57, 153, 0.75), rgba(30, 115, 172, 0.75)), url(https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif);
+    background: linear-gradient(to right bottom, rgba(142, 57, 153, 0.75), rgba(30, 115, 172, 0.75));
      background-size: cover;
     transform: skewY(
-            -3deg
+            -2deg
     );
 }
 .plan__cards__container{
@@ -36,12 +36,19 @@
 .plan__card__upgrade{
     text-align: center;
 }
-.plan__card__upgrade__plan{
+.plan__card__upgrade__price{
     font-size: 13px;
     text-align: center;
-    font-weight: 600;
-    margin-top: 12px;
-    color: #494563;
+    text-transform: uppercase;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #64495E, #4C5F9A);
+    flex: 1;
+    background-clip: text;
+    letter-spacing: 2px;
+    transition: all .2s;
+    color: transparent;
 }
 .plan__card__feature .MuiSvgIcon-root{
     font-size: 20px !important;
@@ -68,6 +75,6 @@
 .section__plan > *{
 
     transform: skewY(
-            3deg
+            2deg
     );
 }

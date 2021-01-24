@@ -4,27 +4,35 @@ import CheckIcon from '@material-ui/icons/Check'
 
 const plans = [
     {
-        title: "PRO",
+        title: "BASIC",
         price: "$ 1500",
         features: [
             "Web site",
         ]
     }, {
-        title: "EMPIRE",
+        title: "PRO",
         price: "$ 2000",
 
         features: [
             "Web site",
             "Online reputation",
-            "Maintenance (1 month)"
         ]
     }, {
-        title: "UNICORN",
+        title: "EMPIRE",
         price: "$ 3500",
         features: [
             "Web site",
             "Online reputation",
             "Maintenance (3 month)"
+        ]
+    }, {
+        title: "UNICORN",
+        price: "FULL TIME  CLIENT",
+        features: [
+            "Web site",
+            "Online reputation",
+            "Maintenance",
+            "Full features on demand"
         ]
     }
 ]

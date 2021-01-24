@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 import {Button} from '@material-ui/core'
-
+import logo from '../../images/logo2.png'
 
 const ScrollTo = (id) => {
     let element = document.getElementById(id);
@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <div className="header">
             <div className="header__logo">
-                LOGO
+                <img src={logo} alt="logo" width="50" height={"50"}/>
             </div>
             <div className="header__content">
                 <div className="header__text">
