@@ -77,47 +77,39 @@
   "portfolio": {
     "projects": [
       {
-        "title": "SandaChat",
-        "description": "e-commerce",
-        "headerImage": "https://media.giphy.com/media/1wmdIGcw9g09BqHmmX/giphy.gif",
-        "bgColor": "black",
-        "backColor": "linear-gradient(to right bottom, black, gray)",
-        "gotoLink": "",
+        "title": "Mike Blog ",
+        "description": "AWS and React: Creating Full-Stack Apps. Blog for articles, built for a friend  (in progress)",
+        "headerImage": "",
+        "bgColor": "#FAAD33",
+        "backColor": "linear-gradient(to right bottom, #FAAD33, #1b2e21)",
+        "gotoLink": "http://blog-app-20191206223226-hostingbucket-blogapp.s3-website.us-east-2.amazonaws.com/",
         "codeLink": "",
         "skills": [
           {
-            "name": "EXPO",
+            "name": "AWS/Amplify",
             "rate": 3
           },
           {
-            "name": "React native element",
-            "rate": 3
-          },
-          {
-            "name": "firebase",
-            "rate": 3
-          },
-          {
-            "name": "React-navigation",
+            "name": "React/redux",
             "rate": 3
           }
         ]
       },
       {
-        "title": "Nawde  BDStory",
-        "description": "It's your birthday? create a private or public story room, so your friend can make your day unique with insane videos :)",
-        "headerImage": "",
+        "title": "ErcoTire",
+        "description": "E-commerce App that allows customers to buy new  or used tires in lower price",
+        "headerImage": "/images/ercotire.png",
         "gotoLink": "https://nawde-c26fa.web.app/",
         "codeLink": "",
-        "bgColor": "yellow",
-        "backColor": "linear-gradient(to right bottom, yellow, #1b2e21)",
+        "bgColor": "white",
+        "backColor": "linear-gradient(to right bottom, black, gray)",
         "skills": [
           {
-            "name": "React",
+            "name": "Expo",
             "rate": 3
           },
           {
-            "name": "Redux/hook",
+            "name": "React native",
             "rate": 3
           },
           {
@@ -132,7 +124,7 @@
       },
       {
         "title": "Sanda Chat",
-        "description": "chat and call app",
+        "description": "It's your birthday? create a private or public story room, so your friend can make your day unique with insane videos :)",
         "headerImage": "",
         "gotoLink": "https://sandachat-b581e.web.app/",
         "codeLink": "",
@@ -140,15 +132,15 @@
         "backColor": "linear-gradient(to right bottom, #396b2a, #1b2e21)",
         "skills": [
           {
-            "name": "Expo",
+            "name": "React/Redux/hook",
             "rate": 3
           },
           {
-            "name": "React Native",
+            "name": "NodeJs",
             "rate": 3
           },
           {
-            "name": "Firebase ( auth, db)",
+            "name": "Firebase",
             "rate": 3
           }
         ]

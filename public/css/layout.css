@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/header-background.jpeg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -1054,7 +1054,7 @@ footer .social-links li:first-child { margin-left: 0; }
     margin-bottom: 8px;
     cursor: pointer;
     font-size: 20px !important;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #c0c0c0;
 }
 .back_side{
     color:white;
@@ -1063,4 +1063,12 @@ footer .social-links li:first-child { margin-left: 0; }
 
 .project__card.back_side{
     padding: 0 10px;
+}
+
+.project__header{
+    margin-bottom: 20px;
+    padding: 10px 0;
+    height: 25%;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 78px, 0 100%);
 }

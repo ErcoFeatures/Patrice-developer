@@ -22,7 +22,7 @@ const Card = ({project}) => {
           <ReactCardFlip isFlipped={isFlipped}>
             <div className="project__card">
               <div className='project__header front_side' style={{backgroundColor: project.bgColor}}>
-                <img width="60" height="70" src={project.headerImage} alt=''/>
+                {project.headerImage!=="" && <img width="60" height="70" src={project.headerImage} alt=''/>}
               </div><div className='project__skills'>
               {
                 project.skills.map((el,index) => <div  key={index} className="skill">{el.name} </div>)
