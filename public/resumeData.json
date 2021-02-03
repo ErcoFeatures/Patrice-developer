@@ -1,8 +1,10 @@
 {
   "main": {
     "name": "Patrice DIOUF ",
-    "occupation": "Web developer at Gartner & CEO of ERCOLINE",
+    "occupation": "Web developer at Gartner ",
     "description": "React expert",
+    "company": "ERCOLINE",
+    "companyURL": "https://www.ercoline.ca",
     "image": "profilepic.jpg",
     "bio": "Hi there! I am Patrice! I've been coding for over 6 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. My focus is  now on Front-end development with more than 4 years of experience designing and implementing IT solutions with complex and high quality UX/UI results. Expert with React/ redux/ hook. proficient with backlog management, design/build and configure web applications. Always seeking for challenges. Along the journey, I realised my passion existed in delivering high quality, which make me proud. With this passion I build strong trust with the customer.",
     "contactmessage": "Get in touch with me to get more info about me!",
@@ -78,6 +80,7 @@
     "projects": [
       {
         "title": "Mike Blog ",
+        "buttonLabel": "DEMO",
         "description": "AWS and React: Creating Full-Stack Apps. Blog for articles, built for a friend  (in progress)",
         "headerImage": "",
         "bgColor": "#FAAD33",
@@ -99,8 +102,9 @@
         "title": "ErcoTire",
         "description": "E-commerce App that allows customers to buy new  or used tires in lower price",
         "headerImage": "/images/ercotire.png",
-        "gotoLink": "https://nawde-c26fa.web.app/",
+        "gotoLink": "https://github.com/ErcoFeatures/ErcoTire",
         "codeLink": "",
+        "buttonLabel": "Source Code",
         "bgColor": "white",
         "backColor": "linear-gradient(to right bottom, black, gray)",
         "skills": [
@@ -123,12 +127,13 @@
         ]
       },
       {
-        "title": "Sanda Chat",
+        "title": "NAWDE BDCHAT",
         "description": "It's your birthday? create a private or public story room, so your friend can make your day unique with insane videos :)",
         "headerImage": "",
-        "gotoLink": "https://sandachat-b581e.web.app/",
+        "gotoLink": "https://nawde-c26fa.web.app/",
         "codeLink": "",
         "bgColor": "#396b2a",
+        "buttonLabel": "DEMO",
         "backColor": "linear-gradient(to right bottom, #396b2a, #1b2e21)",
         "skills": [
           {
@@ -151,6 +156,7 @@
         "headerImage": "//cdn.shopify.com/s/files/1/0266/9861/2839/files/Artboard_2_copy_2_4x_50x.png?v=1601843627",
         "gotoLink": "http://ercoline.ca/",
         "bgColor": "#2752D1",
+        "buttonLabel": "DEMO",
         "backColor": "linear-gradient(to right bottom, #1E2D7D, #2752D1)",
         "skills": [
           {

@@ -37,7 +37,7 @@ const Card = ({project}) => {
                 {project.description}
               </div>
               <div className="row__button">
-                <Button className="button" onClick={()=>goToLink(project.gotoLink)} >DEMO</Button>
+                <Button className="button" onClick={()=>goToLink(project.gotoLink)} >{project.buttonLabel}</Button>
               </div>
             </div>
           </ReactCardFlip>
