@@ -5,7 +5,7 @@ import Project from "../Project";
 import Grid from "@material-ui/core/Grid";
 const projects = [
     {
-        title: "vue",
+        title: "SandaChat",
         description: "e-commerce",
         headerImage:"https://media.giphy.com/media/1wmdIGcw9g09BqHmmX/giphy.gif",
 
@@ -14,10 +14,10 @@ const projects = [
         gotoLink:'',
         codeLink:'',
         skills: [
-            { name: "AWS",rate:3},
-            { name: "Docker",rate:3},
-            { name: "NodeJS",rate:3},
-            { name: "CSS",rate:3},
+            { name: "EXPO",rate:3},
+            { name: "React native element",rate:3},
+            { name: "firebase",rate:3},
+            { name: "React-navigation",rate:3},
         ]
     },
     {
@@ -33,6 +33,20 @@ const projects = [
             { name: "Redux",rate:3},
             { name: "NodeJs",rate:3},
             { name: "Firebase",rate:3},
+        ]
+    },
+    {
+        title: "Sanda Chat",
+        description: "chat and call app",
+        headerImage:"",
+        gotoLink:'https://sandachat-b581e.web.app/',
+        codeLink:'',
+        bgColor:"#396b2a",
+        backColor:"linear-gradient(to right bottom, #396b2a, #1b2e21)",
+        skills: [
+            { name: "Expo",rate:3},
+            { name: "React Native",rate:3},
+            { name: "Firebase ( auth, db)",rate:3},
         ]
     },
     {

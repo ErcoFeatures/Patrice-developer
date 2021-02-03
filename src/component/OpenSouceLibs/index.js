@@ -19,7 +19,7 @@ const OpenSourceLibs = () => {
                         <div className="heading">MOTIVATED TO PRODUCE RESULTS</div>
                         <p className="paragraph"> Front-end developer with more than 4 years of experience designing and implementing IT
                             solutions with complex and high quality UX/UI results.
-                            Expert with React/ redux/ context. proficient with backlog management, design/build and
+                            Expert with React/ redux/ hook. proficient with backlog management, design/build and
                             configure web applications. Always seeking for challenges.
                         </p>
                         <div className="heading">my focus:</div>

@@ -1,0 +1,195 @@
+{
+  "main": {
+    "name": "Patrice DIOUF ",
+    "occupation": "Web developer at Gartner & CEO of ERCOLINE",
+    "description": "React expert",
+    "image": "profilepic.jpg",
+    "bio": "Hi there! I am Patrice! I've been coding for over 6 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. My focus is  now on Front-end development with more than 4 years of experience designing and implementing IT solutions with complex and high quality UX/UI results. Expert with React/ redux/ hook. proficient with backlog management, design/build and configure web applications. Always seeking for challenges. Along the journey, I realised my passion existed in delivering high quality, which make me proud. With this passion I build strong trust with the customer.",
+    "contactmessage": "Get in touch with me to get more info about me!",
+    "email": "patricediouf@hotmail.fr",
+    "phone": "+1 418 265 6202",
+    "address": {
+      "street": "",
+      "city": "Québec",
+      "state": "Quebec",
+      "zip": "G1E 0C4"
+    },
+    "website": "/",
+    "resumedownload": "http://www.patrice-diouf.com/us/",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/patricediouf",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/orgs/ErcoFeatures/dashboard",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "Laval University ( Ulaval )",
+        "degree": "Computer Engineering",
+        "graduated": "July 2017",
+        "description": "I combined a part time Job as web developer at Ulaval and full time student during the last 3 years of the 4 year program."
+      }
+    ],
+    "work": [
+      {
+        "company": "Gartner Inc.",
+        "title": "Developer",
+        "years": "Mars 2017 - Present",
+        "description": "At year 3, I started working 50% of my time in DevOps team. Fully dedicated on writing terraform scripts and Jenkins Job for migrating legacy Apps into AWS EC2. Now I'm fully working for DevOps team after a solid background on frond-end development\nImplement interfaces that meet customer needs, building on web services developed by the middleware team;\nCollaborate with the Product and UX teams to design the best possible user interfaces;\nContribute to project planning by listing tasks and estimating the required effort;\nSolve challenging problems through brainstorming sessions with team members;\nTest and participate in the production deployment process and the continuous development of products;\nPerform any other related tasks.\nI meanly work in implementing the UI of GARTNER Talent Neuron product.\nGartner TalentNeuron provides you the most comprehensive source of global talent demand and supply data, predictive analytics and insights into real-time job market, location, and competitive intelligence to help you make smarter talent planning and recruiting decisions\" see ( https://www.cebglobal.com/talent-management/talent-neuron.html )"
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "100%"
+      },
+      {
+        "name": "Java",
+        "level": "85%"
+      },
+      {
+        "name": "Git",
+        "level": "90%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "99%"
+      },
+      {
+        "name": "Web Development",
+        "level": "95%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "SandaChat",
+        "description": "e-commerce",
+        "headerImage": "https://media.giphy.com/media/1wmdIGcw9g09BqHmmX/giphy.gif",
+        "bgColor": "black",
+        "backColor": "linear-gradient(to right bottom, black, gray)",
+        "gotoLink": "",
+        "codeLink": "",
+        "skills": [
+          {
+            "name": "EXPO",
+            "rate": 3
+          },
+          {
+            "name": "React native element",
+            "rate": 3
+          },
+          {
+            "name": "firebase",
+            "rate": 3
+          },
+          {
+            "name": "React-navigation",
+            "rate": 3
+          }
+        ]
+      },
+      {
+        "title": "Nawde  BDStory",
+        "description": "It's your birthday? create a private or public story room, so your friend can make your day unique with insane videos :)",
+        "headerImage": "",
+        "gotoLink": "https://nawde-c26fa.web.app/",
+        "codeLink": "",
+        "bgColor": "#396b2a",
+        "backColor": "linear-gradient(to right bottom, #396b2a, #1b2e21)",
+        "skills": [
+          {
+            "name": "React",
+            "rate": 3
+          },
+          {
+            "name": "Redux",
+            "rate": 3
+          },
+          {
+            "name": "NodeJs",
+            "rate": 3
+          },
+          {
+            "name": "Firebase",
+            "rate": 3
+          }
+        ]
+      },
+      {
+        "title": "Sanda Chat",
+        "description": "chat and call app",
+        "headerImage": "",
+        "gotoLink": "https://sandachat-b581e.web.app/",
+        "codeLink": "",
+        "bgColor": "#396b2a",
+        "backColor": "linear-gradient(to right bottom, #396b2a, #1b2e21)",
+        "skills": [
+          {
+            "name": "Expo",
+            "rate": 3
+          },
+          {
+            "name": "React Native",
+            "rate": 3
+          },
+          {
+            "name": "Firebase ( auth, db)",
+            "rate": 3
+          }
+        ]
+      },
+      {
+        "title": "ErcoLine",
+        "description": "e-commerce site built using Shopify  with customized checkout ",
+        "headerImage": "//cdn.shopify.com/s/files/1/0266/9861/2839/files/Artboard_2_copy_2_4x_50x.png?v=1601843627",
+        "gotoLink": "http://ercoline.ca/",
+        "bgColor": "#2752D1",
+        "backColor": "linear-gradient(to right bottom, #1E2D7D, #2752D1)",
+        "skills": [
+          {
+            "name": "Shopify shop optimisation ",
+            "rate": 3
+          },
+          {
+            "name": "Facebook Ads"
+          },
+          {
+            "name": "Retargeting ",
+            "rate": 3
+          },
+          {
+            "name": "Testing products",
+            "rate": 3
+          },
+          {
+            "name": "Influencer marcketing",
+            "rate": 3
+          }
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Patrice is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to the team... I would definitely recommend",
+        "user": "Jorge Fouto"
+      },
+      {
+        "text": "Working with Patrice has been AWESOME, he has  strong skill on React's world. He has a great team spirit and so easy and approachable",
+        "user": "Adam Curtis"
+      }
+    ]
+  }
+}

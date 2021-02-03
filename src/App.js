@@ -1,38 +1,34 @@
-import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-} from "react-router-dom";
+import React, {useEffect, useState} from 'react';
 import './App.css';
-import Contact from "./pages/Contact";
+import Contact from "./component/Contact";
 import Header from "./component/Header";
-import Projects from "./component/Projects";
-import OpenSourceLibs from "./component/OpenSouceLibs";
-import Plans from "./component/Plans";
 import Footer from "./component/Footer";
+import Resume from "./component/Resume";
+import Portfolio from "./component/Portfolio";
+import Testimonials from "./component/Testimonials";
 
+import "./App.css";
+import About from "./component/About";
 function App() {
-  return (
-    <div className="App">
-        <Router>
-            <div className="app__body">
-                <Switch>
-                    <Route path="/contact">
-                        <Contact />
-                    </Route>
-                    <Route  exact path="/">
-                        <Header/>
-                        <OpenSourceLibs/>
-                        <Plans/>
-                        <Projects/>
+    const [resumeData, setResumeData] = useState({});
 
-                        <Footer/>
-                    </Route>
-                </Switch>
-            </div>
-        </Router>
-    </div>
+    useEffect(() => {
+        fetch("/resumeData.json")
+            .then((res) => res.json())
+            .then((data) => {
+                setResumeData(data);
+            });
+    }, []);
+  return (
+      <div className="App">
+          <Header data={resumeData.main} />
+          <About data={resumeData.main} />
+          <Resume data={resumeData.resume} />
+          <Portfolio data={resumeData.portfolio} />
+          <Testimonials data={resumeData.testimonials} />
+          <Contact data={resumeData.main} />
+          <Footer data={resumeData.main} />
+      </div>
   );
 }
 
