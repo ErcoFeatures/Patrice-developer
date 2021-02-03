@@ -318,7 +318,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #1E2D7D;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -1009,3 +1009,58 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+.project {
+    position: relative;
+    padding: 0 10px;
+    width: 245px;
+    margin: 5px !important;
+
+}.project  > ul{
+     margin: 0;
+
+ }
+
+.project__card{
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    text-align: center;
+    width: 100%;
+    height: 315px;
+    display: inline-block;
+}
+
+
+
+.row__button .button{
+    bottom: 0;
+    font-size: 14px !important;
+    position: absolute !important;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.project__skills {
+    color: #616161;
+    display: flex;
+    right:0;
+    margin:5px;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.project__skills .skill {
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 20px !important;
+    border-bottom: 1px solid #eee;
+}
+.back_side{
+    color:white;
+}
+
+
+.project__card.back_side{
+    padding: 0 10px;
+}
