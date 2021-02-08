@@ -87,8 +87,7 @@
       "headerImage": "",
       "bgColor": "#FAAD33",
       "backColor": "linear-gradient(to right bottom, #FAAD33, #1b2e21)",
-      "gotoLink": "http://blog-app-20191206223226-hostingbucket-blogapp.s3-website.us-east-2.amazonaws.com/",
-      "codeLink": "",
+       "codeLink": "",
       "skills": [
         {
           "name": "Firebase",
@@ -109,7 +108,7 @@
 
         "imageFront": "SandaChatMessage.png",
         "imageBack": "SandaChatList.png",
-        "url": "https://nawde-c26fa.web.app/",
+        "url": "https://sandachat-b581e.web.app/",
         "title": "SANDA CHAT",
         "buttonLabel": "DEMO",
         "description": "Full Stack  Web App: Chat application , design inpired by Signal",
@@ -139,7 +138,6 @@
         "title": "NAWDE BDCHAT",
         "description": "It's your birthday? create a private or public story room, so your friend can make your day unique with insane videos :)",
         "headerImage": "",
-        "gotoLink": "https://nawde-c26fa.web.app/",
         "codeLink": "",
         "bgColor": "#396b2a",
         "buttonLabel": "DEMO",
@@ -163,11 +161,10 @@
 
         "imageFront": "ErcolineHome.png",
         "imageBack": "ErcolineFeatured.png",
-        "url": "https://nawde-c26fa.web.app/",
+        "url": "https://ercoline.ca/",
         "title": "ErcoLine",
         "description": "e-commerce site built using Shopify  with customized checkout ",
         "headerImage": "//cdn.shopify.com/s/files/1/0266/9861/2839/files/Artboard_2_copy_2_4x_50x.png?v=1601843627",
-        "gotoLink": "http://ercoline.ca/",
         "bgColor": "#2752D1",
         "buttonLabel": "DEMO",
         "backColor": "linear-gradient(to right bottom, #1E2D7D, #2752D1)",
