@@ -51,7 +51,7 @@ const Portfolio = ({ data }) => {
 
   if (data) {
     var projects = data.projects.map((projects, index)=> {
-      var projectImage = "images/portfolio/" + projects.image;
+      var projectImage = "images/portfolio/" + projects.imageFront;
       return (
         <div key={projects.title} className="columns portfolio-item">
           <div className="item-wrap">
@@ -66,6 +66,11 @@ const Portfolio = ({ data }) => {
               <div className="link-icon">
                 <i className="fa fa-link"></i>
               </div>
+              <div className='project__skills'>
+              {
+                projects.skills.map((el,index) => <div  key={index} className="skill">{el.name} </div>)
+              }
+            </div>
             </a>
           </div>
         </div>
@@ -77,7 +82,7 @@ const Portfolio = ({ data }) => {
     <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
+          <h1>Check Out Some of My Works. <span style={{color:"#9f72f8"}}>Hover on card for details</span></h1>
 
           <div
             id="portfolio-wrapper"

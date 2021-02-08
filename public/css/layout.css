@@ -278,7 +278,7 @@ ul#nav li.current a { color: #9f72f8; }
 }
 
 
-#resume p {
+#resume > p {
    text-align: justify;
 }
 
@@ -442,12 +442,12 @@ ul#nav li.current a { color: #9f72f8; }
    background: #fff;
    overflow: hidden;
    position: relative;
-
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+   height: 296px;
 }
 .portfolio-item .item-wrap a {
    display: block;
@@ -1015,3 +1015,68 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+.project {
+    position: relative;
+    padding: 0 10px;
+    width: 245px;
+    margin: 5px !important;
+
+}.project  > ul{
+     margin: 0;
+
+ }
+
+.project__card{
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    text-align: center;
+    width: 100%;
+    height: 315px;
+    display: inline-block;
+    padding:  0 !important;
+    margin-right: 5px;
+}
+
+
+
+.row__button .button{
+    bottom: 0;
+    font-size: 14px !important;
+    position: absolute !important;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.project__skills {
+    color: #616161;
+    display: flex;
+    right:0;
+    margin:5px;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.project__skills .skill {
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 1.5rem!important;
+    border-bottom: 1px solid #c0c0c0;
+}
+.back_side{
+    color:white;
+}
+me
+
+.project__card.back_side{
+    padding: 0 10px;
+}
+
+.project__header{
+    margin-bottom: 20px;
+    padding: 10px 0;
+    height: 25%;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 78px, 0 100%);
+}

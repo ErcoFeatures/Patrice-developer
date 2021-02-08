@@ -77,21 +77,53 @@
     ]
   },
   "portfolio": {
-    "projects": [
+      "projects": [{
+      "title": "Sanda Chill",
+      "imageFront": "SandaChillFull.png",
+      "imageBack": "SandaChillLogin.png",
+      "url": "https://sandachill.web.app/",
+      "buttonLabel": "DEMO",
+      "description": "Full Stack  Web App : Movie/Series App. Design inspired by Netflix. Full payment process with stripe checkout. Full SignUp/SignIn process",
+      "headerImage": "",
+      "bgColor": "#FAAD33",
+      "backColor": "linear-gradient(to right bottom, #FAAD33, #1b2e21)",
+      "gotoLink": "http://blog-app-20191206223226-hostingbucket-blogapp.s3-website.us-east-2.amazonaws.com/",
+      "codeLink": "",
+      "skills": [
+        {
+          "name": "Firebase",
+          "rate": 3
+        },
+        {
+          "name": "React/redux",
+          "rate": 3
+        },
+        {
+          "name": "Stripe intgration",
+          "rate": 3
+        }
+      ]
+    },
       {
-        "title": "Snapchat Clone (React JS)",
-        "image": "SandaChillFull.png",
-        "url": "https://youtu.be/1kGISk5ft2w",
+        
+
+        "imageFront": "SandaChatMessage.png",
+        "imageBack": "SandaChatList.png",
+        "url": "https://nawde-c26fa.web.app/",
+        "title": "SANDA CHAT",
         "buttonLabel": "DEMO",
-        "description": "AWS and React: Creating Full-Stack Apps. Blog for articles, built for a friend  (in progress)",
+        "description": "Full Stack  Web App: Chat application , design inpired by Signal",
         "headerImage": "",
         "bgColor": "#FAAD33",
         "backColor": "linear-gradient(to right bottom, #FAAD33, #1b2e21)",
-        "gotoLink": "http://blog-app-20191206223226-hostingbucket-blogapp.s3-website.us-east-2.amazonaws.com/",
         "codeLink": "",
         "skills": [
           {
-            "name": "AWS/Amplify",
+            "name": "React Js",
+            "rate": 3
+          },
+          {
+            "name": "Firebase",
             "rate": 3
           },
           {
@@ -101,34 +133,9 @@
         ]
       },
       {
-        "title": "ErcoTire",
-        "description": "E-commerce App that allows customers to buy new  or used tires in lower price",
-        "headerImage": "/images/ercotire.png",
-        "gotoLink": "https://github.com/ErcoFeatures/ErcoTire",
-        "codeLink": "",
-        "buttonLabel": "Source Code",
-        "bgColor": "white",
-        "backColor": "linear-gradient(to right bottom, black, gray)",
-        "skills": [
-          {
-            "name": "Expo",
-            "rate": 3
-          },
-          {
-            "name": "React native",
-            "rate": 3
-          },
-          {
-            "name": "NodeJs",
-            "rate": 3
-          },
-          {
-            "name": "Firebase",
-            "rate": 3
-          }
-        ]
-      },
-      {
+        "imageFront": "NawdeHome.png",
+        "imageBack": "NawdeLogin.png",
+        "url": "https://nawde-c26fa.web.app/",
         "title": "NAWDE BDCHAT",
         "description": "It's your birthday? create a private or public story room, so your friend can make your day unique with insane videos :)",
         "headerImage": "",
@@ -139,7 +146,7 @@
         "backColor": "linear-gradient(to right bottom, #396b2a, #1b2e21)",
         "skills": [
           {
-            "name": "React/Redux/hook",
+            "name": "React/Redux",
             "rate": 3
           },
           {
@@ -153,6 +160,10 @@
         ]
       },
       {
+
+        "imageFront": "ErcolineHome.png",
+        "imageBack": "ErcolineFeatured.png",
+        "url": "https://nawde-c26fa.web.app/",
         "title": "ErcoLine",
         "description": "e-commerce site built using Shopify  with customized checkout ",
         "headerImage": "//cdn.shopify.com/s/files/1/0266/9861/2839/files/Artboard_2_copy_2_4x_50x.png?v=1601843627",
