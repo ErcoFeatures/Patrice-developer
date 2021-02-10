@@ -1,7 +1,12 @@
-import React from "react";
+import React, {useEffect, useState}from "react";
 import TypeWriter from "react-typewriter";
+import { useTranslation } from 'react-i18next';
+
 
 const Header = ({ data }) => {
+  const [currentLang, setCurrentLang] = useState('en');
+  const { t, i18n } = useTranslation();
+
   if (data) {
     var name = data.name;
     var occupation = data.occupation;
@@ -19,6 +24,11 @@ const Header = ({ data }) => {
       );
     });
   }
+  useEffect(() => {
+    debugger;
+    i18n.changeLanguage(currentLang);
+  }, [i18n, currentLang])
+
 
   return (
     <header id="home">
@@ -33,33 +43,39 @@ const Header = ({ data }) => {
         <ul id="nav" className="nav">
           <li className="current">
             <a className="smoothscroll" href="#home">
-              Home
+              {t("header.0")}
             </a>
           </li>
           <li>
             <a className="smoothscroll" href="#about">
-              About
+            {t("header.1")}
             </a>
           </li>
           <li>
             <a className="smoothscroll" href="#resume">
-              Resume
+            {t("header.2")}
             </a>
           </li>
           <li>
             <a className="smoothscroll" href="#portfolio">
-              Works
+            {t("header.3")}
             </a>
           </li>
           <li>
             <a className="smoothscroll" href="#testimonials">
-              Testimonials
+            {t("header.4")}
             </a>
           </li>
           <li>
             <a className="smoothscroll" href="#contact">
-              Contact
+            {t("header.5")}
             </a>
+          </li>
+
+          <li>
+            <button onClick={() => setCurrentLang(currentLang === 'en'?'fr':'en')}>
+              {currentLang === "en" ?"Francais" : "English"}
+            </button>
           </li>
         </ul>
       </nav>
