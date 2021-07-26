@@ -6,7 +6,7 @@ import Footer from "./component/Footer";
 import Resume from "./component/Resume";
 import Portfolio from "./component/Portfolio";
 import Testimonials from "./component/Testimonials";
-
+import './i18n'
 import "./App.css";
 import About from "./component/About";
 function App() {
